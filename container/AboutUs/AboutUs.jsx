@@ -15,7 +15,7 @@ const AboutUs = () => {
         <div className="app__aboutus-content-about">
           <h1 className="headtext__cormorant">About Us</h1>
           <img
-            src="/assets/spoon.png"
+            src="/assets/spoon.svg"
             alt="about_spoon"
             className="spoon__img"
           />
@@ -33,7 +33,7 @@ const AboutUs = () => {
         <div className="app__aboutus-content-history">
           <h1 className="headtext__cormorant">Our History</h1>
           <img
-            src="/assets/spoon.png"
+            src="/assets/spoon.svg"
             alt="about_spoon"
             className="spoon__img"
           />

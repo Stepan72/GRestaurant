@@ -67,7 +67,7 @@
   }
 }
 
-/// 650 - 900
+/// 0-- 650 - 900
 @media screen and (max-width: 900px) {
   .app__aboutus-content {
     flex-direction: column;
@@ -83,9 +83,5 @@
   .app__aboutus-overlay img {
     width: 80%;
     height: 320px;
-  }
-
-  .app__aboutus-content {
-    flex-direction: column;
   }
 }
