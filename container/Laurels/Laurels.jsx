@@ -7,6 +7,9 @@ import AwardCard from "@/components/AwardCard/AwardCard";
 
 const Laurels = () => (
   <div className="app__bg app__wrapper section__padding" id="awards">
+    <div className="app_wrapper_logo">
+      <img src="/assets/logo.png" alt="logo" />
+    </div>
     <div className="app__wrapper_info">
       <SubHeading title="Awards & Recognition" />
       <h1 className="headtext__cormorant">Our Laurels</h1>
