@@ -8,8 +8,17 @@
   text-transform: uppercase;
   line-height: 117px;
   font-size: 90px;
+
+  width: 100%;
 }
 
 .app__header_img img {
   width: 80%;
+}
+
+@media screen and (max-width: 450) {
+  .app__header-h1 {
+    font-size: 65px;
+    line-height: 50px;
+  }
 }
