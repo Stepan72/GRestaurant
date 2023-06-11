@@ -3,6 +3,9 @@ import React from "react";
 import { SubHeading } from "@/components";
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
+    <div className="app__wrapper_img">
+      <img src="/assets/findus.png" alt="findus" />
+    </div>
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant mb-12">Find Us</h1>
@@ -22,9 +25,6 @@ const FindUs = () => (
       <button className="custom__button mt-8" type="button">
         Visit Us
       </button>
-    </div>
-    <div className="app__wrapper_img">
-      <img src="/assets/findus.png" alt="findus" />
     </div>
   </div>
 );
