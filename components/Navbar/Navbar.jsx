@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./Navbar.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -11,7 +12,12 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src="/assets/gericht.png" alt="app-logo" />
+        <Image
+          src="/assets/gericht.png"
+          width={210}
+          height={60}
+          alt="app-logo"
+        />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
