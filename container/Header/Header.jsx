@@ -3,6 +3,7 @@ import React from "react";
 
 import "./Header.scss";
 import { SubHeading } from "@/components";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -24,7 +25,12 @@ const Header = () => {
         </button>
       </div>
       <div className="app__wrapper_img">
-        <img src="/assets/welcome.png" alt="welcome-image" />
+        <Image
+          src="/assets/welcome.png"
+          width={486}
+          height={536}
+          alt="welcome-image"
+        />
       </div>
     </div>
   );

@@ -35,14 +35,12 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="app__navbar-login">
-        <a href="/" className="p__opensans">
+        <Link href="/" className="p__opensans">
           Log In / Register
-        </a>
-        <div>
-          <Link href="/" className="p__opensans">
-            Book Table
-          </Link>
-        </div>
+        </Link>
+        <Link href="/" className="p__opensans">
+          Book Table
+        </Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
