@@ -3,6 +3,7 @@ import React from "react";
 import { SubHeading, MenuItem } from "@/components";
 import "./SpecialMenu.scss";
 import { cocktails, wines } from "@/constants/data";
+import Image from "next/image";
 
 const SpecialMenu = () => {
   return (
@@ -34,7 +35,12 @@ const SpecialMenu = () => {
           </div>
         </div>
         <div className="app__specialMenu-menu_img">
-          <img src="/assets/menu.png" alt="menu-img" />
+          <Image
+            src="/assets/menu.png"
+            alt="menu-img"
+            width={650}
+            height={1040}
+          />
         </div>
         <div className="app__specialMenu-menu_coctails flex__center">
           <p className="app__specialMenu_menu_heading">Cocktails</p>
