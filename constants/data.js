@@ -56,23 +56,23 @@ export const cocktails = [
 
 export const awards = [
   {
-    imgUrl: "assets/award02.png",
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
-  },
-  {
-    imgUrl: "assets/award01.png",
+    imgUrl: "/assets/award01.png",
     title: "Rising Star",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: "assets/award05.png",
-    title: "AA Hospitality",
+    imgUrl: "/assets/award02.png",
+    title: "Bib Gourmond",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
-    imgUrl: "assets/award03.png",
+    imgUrl: "/assets/award03.png",
     title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+  },
+  {
+    imgUrl: "/assets/award05.png",
+    title: "AA Hospitality",
     subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];

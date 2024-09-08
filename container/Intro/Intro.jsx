@@ -6,6 +6,7 @@ import "./Intro.scss";
 const Intro = () => {
   const [playVideo, setPlayVideo] = useState(false);
   const vidRef = useRef();
+
   function handleVideo() {
     setPlayVideo((prevValue) => {
       return !prevValue;
