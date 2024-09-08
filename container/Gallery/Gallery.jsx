@@ -7,12 +7,13 @@ import {
 } from "react-icons/bs";
 import { SubHeading } from "@/components";
 import "./Gallery.scss";
+import Image from "next/image";
 
 const images = [
-  "assets/gallery02.png",
-  "assets/gallery03.png",
-  "assets/gallery01.png",
-  "assets/gallery04.png",
+  "/assets/gallery02.png",
+  "/assets/gallery03.png",
+  "/assets/gallery01.png",
+  "/assets/gallery04.png",
 ];
 
 const Gallery = () => {
@@ -47,7 +48,7 @@ const Gallery = () => {
                 className="app__gallery-images_card flex__center"
                 key={index}
               >
-                <img src={el} alt="gallery-img" />
+                <Image src={el} alt="gallery-img" width={321} height={447} />
                 <BsInstagram className="gallery__image-icon" />
               </div>
             );
