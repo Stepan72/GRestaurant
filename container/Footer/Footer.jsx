@@ -3,6 +3,7 @@ import React from "react";
 import { FooterOverlay, Newsletter } from "@/components";
 import "./Footer.scss";
 import { FiInstagram, FiTwitter, FiFacebook } from "react-icons/fi";
+import Image from "next/image";
 
 const Footer = () => (
   <div className="app__footer section__padding app__bg">
@@ -16,15 +17,22 @@ const Footer = () => (
         <p className="p__opensans">+1 212-555-1230</p>
       </div>
       <div className="app__footer-links_logo">
-        <img src="/assets/gericht.png" alt="footer_logo" />
+        <Image
+          src="/assets/gericht.png"
+          alt="footer_logo"
+          width={398}
+          height={114}
+        />
         <p className="p__opensans">
           "The Best Way to Find Yourself is to lose yourself in the service of
           others."
         </p>
-        <img
+        <Image
           src="assets/spoon.svg"
           className="spoon__img mt-4"
           alt="footer_spoon"
+          width={45}
+          height={11}
         />
         <div className="app__footer-links_icons">
           <FiFacebook />
